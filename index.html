@@ -17,6 +17,10 @@
       .conteiner-filho {
         display: flex;
       }
+
+      .conteiner-neto {
+        display: flex;
+      }
       .item {
         flex: 1;
         padding: 20px;
@@ -44,6 +48,13 @@
         background-color: #549936;
         border: 2px solid black;
       }
+
+      .item5 {
+        flex: 5;
+        padding: 20px;
+        background-color: #3c3f3a;
+        border: 2px solid black;
+      }
     </style>
   </head>
   <body>
@@ -54,7 +65,10 @@
       <div class="item4 conteiner-filho">
         <div class="item">item</div>
         <div class="item">item</div>
-        <div class="item">item</div>
+        <div class="item conteiner-neto">
+          <div class="item5">item</div>
+          <div class="item2">item</div>
+        </div>
       </div>
     </div>
   </body>
