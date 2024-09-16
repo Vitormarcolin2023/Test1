@@ -2,8 +2,6 @@
 
 O BookTrack é um site que permite aos usuários gerenciarem seus livros lidos, livros que estão lendo e até mesmo aqueles que não gostaram. Com ele, é possível ter um controle sobre suas leituras, avaliar cada livro e registrar suas impressões.
 
-TESTE OPMEFOPEM
-
 👥 Equipe
 
 O desenvolvimento deste projeto contou com a colaboração de:
