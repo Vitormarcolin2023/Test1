@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="">
+      <h1 id="Titulo">Oiiiii</h1>
+      <h2 id="text">Ola1</h2>
+      <h3 id="text">Ola2</h3>
+      <div>
+        <button onclick="alerta()">Alerta</button>
+        <button onclick="alertaTitulo()">Alt</button>
+        <button onclick="aletClass()">Alt</button>
+      </div>
+    </div>
+
+    <script>
+      function Alerta() {
+        alert("Olá");
+      }
+
+      function alerta() {
+        let conteudoTitulo = document.getElementById("Titulo").textContent;
+        alert(conteudoTitulo);
+      }
+
+      function alertaTitulo() {
+        var elemento = document.getElementById("Titulo");
+        elemento.innerHTML = "Alt JS";
+      }
+
+      function aletClass(){
+        var para = document.getElementsByClassName("text");
+      }
+
+    </script>
+  </body>
+</html>
