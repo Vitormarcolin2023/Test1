@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCAM</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="cadastroForm" class="form">
+        <h1>Login no SCAM</h1>
+        <h5>Sistema de Cadastro e Acompanhamento de Montorias</h5>
+        <div class="form-control">
+          <select>
+            <option>Escolha o seu usuário</option>
+            <option id="mentor">Mentor</option>
+            <option id="aluno">Aluno</option>
+            <option id="professor">Professor</option>
+            <option id="coordenacao">Coordenação de curso</option>
+          </select>
+        </div>
+
+        <div class="form-control">
+          <label for="sobrenome">Usuario (CPF)</label>
+          <input
+            type="text"
+            id="user"
+            name="user"
+            placeholder="Digite o seu usuário aqui"
+            required
+          />
+        </div>
+
+        <div class="form-control">
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            placeholder="Digite a seu senha aqui"
+            required
+          />
+        </div>
+
+        <button type="button">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-image: url(./D+UA\ -\ BICOLOR\ -\ HORIZONTAL.png);
+  
+}
+h1 {
+  text-align: center;
+}
+
+h5{
+  text-align: justify;
+}
+
+.container {
+  background-color: #fafafa70;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20vh;
+  border: 2px solid #000000;
+}
+.form {
+  padding: 20px;
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control select{
+  font-size: 14px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form button {
+  background-color: #000000;
+  border: 2px solid #000000;
+  color: #73ff59;
+  font-size: 14px;
+  width: 98%;
+  border-radius: 10px;
+  padding: 10px;
+}
