@@ -4,16 +4,21 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-body{
-  background-image: url(./D+UA\ -\ BICOLOR\ -\ HORIZONTAL.png);
-  
+body {
+  background-image: url(../Imagens/D+UA\ -\ BICOLOR\ -\ HORIZONTAL.png);
 }
 h1 {
   text-align: center;
 }
 
-h5{
+h5 {
   text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000000;
 }
 
 .container {
@@ -35,7 +40,7 @@ h5{
   position: relative;
 }
 
-.form-control select{
+.form-control select {
   font-size: 14px;
   margin-top: 10px;
   width: 100%;
